@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Transakcje walutowe</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="main">
+        <h1>Transakcje walutowe</h1>
+        <p class="rate-board">Kurs: 1 EUR - <span class="rate"></span> PLN</p>
+
+        <input class="item-name" type="text" placeholder="Nazwa transakcji">
+        <input class="eur" type="number" placeholder="Kwota w EUR" required>
+        <p class="my-pln"><span class="pln">0</span> PLN</p>
+        <br>
+        <button class="add">Dodac do listy</button>
+
+        <div class="my-list">
+            <h2>Lista transakcji</h2>
+            <ol class="list">
+
+            </ol>
+            <p class="my-total">Razem: <span class="total"></span> PLN</p>
+        </div>
+
+        <div class="biggest">
+            <h2>Transakcja o największej kwocie</h2>
+            <p id="best"></p><span id="best-span">0</span>
+        </div>
+    </section>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/json.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

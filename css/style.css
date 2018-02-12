@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#best {
+    display: inline;
+}
+
+.main {
+    width: 700px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(168, 224, 237, 0.5);
+    min-height: 550px;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.rate-board {
+    width: 200px;
+    margin: auto;
+    padding: 5px;
+    background-color: lightblue;
+}
+
+.my-pln {
+    background-color: lightblue;
+    display: inline;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+input {
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+.my-list,
+.biggest {
+    border: 2px solid #000;
+    width: 90%;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.list {
+    text-align: left;
+}
+
+.add {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #000;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 10px;
+    color: #fff;
+}
+
+.fa {
+    margin-left: 10px;
+}
+
+.my-span,
+#best-span,
+.total {
+    background-color: lightblue;
+}
+
+.my-total {
+    padding: 5px;
+    font-weight: 700;
+    text-align: left;
+}
